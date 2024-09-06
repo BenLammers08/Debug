@@ -3,3 +3,8 @@ empty set isEmpty is failing
 it is returning true when rear is greater than zero when it should be returning false
 
 second bug: line 147
+debuged in to is empty and A was being added but not printing and the method kept saying it was empty so i figued i had to increment rear in the add method
+nothing was being printed in tostring because the for loop for in the tostring was going off of the rear and rear wasnt getting incremented 
+
+third bug 
+A_addB_AB_testRemoveA was going out of bounds by one because it was moving values that were the same size as rear which was was bigger than the array size so i made it search move for rear-1
