@@ -1,0 +1,5 @@
+First Bug: line 111
+empty set isEmpty is failing 
+it is returning true when rear is greater than zero when it should be returning false
+
+second bug: line 147
